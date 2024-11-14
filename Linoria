@@ -56,7 +56,7 @@ ThemeManager.BuiltInThemes = {
 						Options.AccentColor:SetValueRGB(color)
 					end
 					self:ThemeUpdate()
-					wait(0.1)
+					task.wait(2)
 				end
 			end)
 		end
